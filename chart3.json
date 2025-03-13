@@ -1,0 +1,980 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json",
+  "config": {
+    "view": {
+      "continuousHeight": 300,
+      "continuousWidth": 300,
+      "stroke": "transparent"
+    }
+  },
+  "datasets": {
+    "data-04918b9fc03a637edf6e452f8f5e11a6": [
+      {
+        "Abbreviation": "LU",
+        "CPI": 115.09,
+        "Co2-Emissions": 8988,
+        "Co2-Emissions per million people": 13926.312021902797,
+        "Country": "Luxembourg",
+        "GDP": 71104919108,
+        "GDP per capita": 110172.37314087298,
+        "Gasoline Price": 1.19,
+        "Latitude": 49.815273,
+        "Life expectancy": 82.1,
+        "Longitude": 6.129583,
+        "Physicians per thousand": 3.01,
+        "Population": 645397,
+        "Region": "Europe",
+        "Unemployment rate": 5.36
+      },
+      {
+        "Abbreviation": "CH",
+        "CPI": 99.55,
+        "Co2-Emissions": 34477,
+        "Co2-Emissions per million people": 4020.7201727100896,
+        "Country": "Switzerland",
+        "GDP": 703082435360,
+        "GDP per capita": 81993.72714940654,
+        "Gasoline Price": 1.45,
+        "Latitude": 46.818188,
+        "Life expectancy": 83.6,
+        "Longitude": 8.227512,
+        "Physicians per thousand": 4.3,
+        "Population": 8574832,
+        "Region": "Europe",
+        "Unemployment rate": 4.58
+      },
+      {
+        "Abbreviation": "NO",
+        "CPI": 120.27,
+        "Co2-Emissions": 41023,
+        "Co2-Emissions per million people": 7670.867197118268,
+        "Country": "Norway",
+        "GDP": 403336363636,
+        "GDP per capita": 75419.6348687409,
+        "Gasoline Price": 1.78,
+        "Latitude": 60.472024,
+        "Life expectancy": 82.8,
+        "Longitude": 8.468946,
+        "Physicians per thousand": 2.92,
+        "Population": 5347896,
+        "Region": "Europe",
+        "Unemployment rate": 3.35
+      },
+      {
+        "Abbreviation": "IS",
+        "CPI": 129.0,
+        "Co2-Emissions": 2065,
+        "Co2-Emissions per million people": 5715.2662649835465,
+        "Country": "Iceland",
+        "GDP": 24188035739,
+        "GDP per capita": 66944.82550863102,
+        "Gasoline Price": 1.69,
+        "Latitude": 64.963051,
+        "Life expectancy": 82.7,
+        "Longitude": -19.020835,
+        "Physicians per thousand": 4.08,
+        "Population": 361313,
+        "Region": "Europe",
+        "Unemployment rate": 2.84
+      },
+      {
+        "Abbreviation": "US",
+        "CPI": 117.24,
+        "Co2-Emissions": 5006302,
+        "Co2-Emissions per million people": 15251.978050187454,
+        "Country": "United States",
+        "GDP": 21427700000000,
+        "GDP per capita": 65280.6822413034,
+        "Gasoline Price": 0.71,
+        "Latitude": 37.09024,
+        "Life expectancy": 78.5,
+        "Longitude": -95.712891,
+        "Physicians per thousand": 2.61,
+        "Population": 328239523,
+        "Region": "Americas",
+        "Unemployment rate": 14.7
+      },
+      {
+        "Abbreviation": "SG",
+        "CPI": 114.41,
+        "Co2-Emissions": 37535,
+        "Co2-Emissions per million people": 6580.967110242727,
+        "Country": "Singapore",
+        "GDP": 372062527489,
+        "GDP per capita": 65233.28243929371,
+        "Gasoline Price": 1.25,
+        "Latitude": 1.352083,
+        "Life expectancy": 83.1,
+        "Longitude": 103.819836,
+        "Physicians per thousand": 2.29,
+        "Population": 5703569,
+        "Region": "Asia",
+        "Unemployment rate": 4.11
+      },
+      {
+        "Abbreviation": "QA",
+        "CPI": 115.38,
+        "Co2-Emissions": 103259,
+        "Co2-Emissions per million people": 36460.648706404194,
+        "Country": "Qatar",
+        "GDP": 183466208791,
+        "GDP per capita": 64781.73319734314,
+        "Gasoline Price": 0.4,
+        "Latitude": 25.354826,
+        "Life expectancy": 80.1,
+        "Longitude": 51.183884,
+        "Physicians per thousand": 2.49,
+        "Population": 2832067,
+        "Region": "Asia",
+        "Unemployment rate": 0.09
+      },
+      {
+        "Abbreviation": "DK",
+        "CPI": 110.35,
+        "Co2-Emissions": 31786,
+        "Co2-Emissions per million people": 5462.870235950416,
+        "Country": "Denmark",
+        "GDP": 348078018464,
+        "GDP per capita": 59822.092960913134,
+        "Gasoline Price": 1.55,
+        "Latitude": 56.26392,
+        "Life expectancy": 81.0,
+        "Longitude": 9.501785,
+        "Physicians per thousand": 4.01,
+        "Population": 5818553,
+        "Region": "Europe",
+        "Unemployment rate": 4.91
+      },
+      {
+        "Abbreviation": "AU",
+        "CPI": 119.8,
+        "Co2-Emissions": 375908,
+        "Co2-Emissions per million people": 14588.961176685869,
+        "Country": "Australia",
+        "GDP": 1392680589329,
+        "GDP per capita": 54049.8288124881,
+        "Gasoline Price": 0.93,
+        "Latitude": -25.274398,
+        "Life expectancy": 82.7,
+        "Longitude": 133.775136,
+        "Physicians per thousand": 3.68,
+        "Population": 25766605,
+        "Region": "Oceania",
+        "Unemployment rate": 5.27
+      },
+      {
+        "Abbreviation": "NL",
+        "CPI": 115.91,
+        "Co2-Emissions": 170780,
+        "Co2-Emissions per million people": 9852.967053889004,
+        "Country": "Netherlands",
+        "GDP": 909070395161,
+        "GDP per capita": 52447.83143920359,
+        "Gasoline Price": 1.68,
+        "Latitude": 52.132633,
+        "Life expectancy": 81.8,
+        "Longitude": 5.291266,
+        "Physicians per thousand": 3.61,
+        "Population": 17332850,
+        "Region": "Europe",
+        "Unemployment rate": 3.2
+      }
+    ],
+    "data-1e48afa865e8d3f74c573f9ad1d19165": [
+      {
+        "Abbreviation": "BN",
+        "CPI": 99.03,
+        "Co2-Emissions": 7664,
+        "Co2-Emissions per million people": 17688.126752599328,
+        "Country": "Brunei",
+        "GDP": 13469422941,
+        "GDP per capita": 31086.751078389512,
+        "Gasoline Price": 0.37,
+        "Latitude": 4.535277,
+        "Life expectancy": 75.7,
+        "Longitude": 114.727669,
+        "Physicians per thousand": 1.61,
+        "Population": 433285,
+        "Region": "Asia",
+        "Unemployment rate": 9.12
+      },
+      {
+        "Abbreviation": "CH",
+        "CPI": 99.55,
+        "Co2-Emissions": 34477,
+        "Co2-Emissions per million people": 4020.7201727100896,
+        "Country": "Switzerland",
+        "GDP": 703082435360,
+        "GDP per capita": 81993.72714940654,
+        "Gasoline Price": 1.45,
+        "Latitude": 46.818188,
+        "Life expectancy": 83.6,
+        "Longitude": 8.227512,
+        "Physicians per thousand": 4.3,
+        "Population": 8574832,
+        "Region": "Europe",
+        "Unemployment rate": 4.58
+      },
+      {
+        "Abbreviation": "MV",
+        "CPI": 99.7,
+        "Co2-Emissions": 1445,
+        "Co2-Emissions per million people": 2721.5214906027463,
+        "Country": "Maldives",
+        "GDP": 5729248472,
+        "GDP per capita": 10790.500236367438,
+        "Gasoline Price": 1.63,
+        "Latitude": 3.202778,
+        "Life expectancy": 78.6,
+        "Longitude": 73.22068,
+        "Physicians per thousand": 4.56,
+        "Population": 530953,
+        "Region": "Asia",
+        "Unemployment rate": 6.14
+      },
+      {
+        "Abbreviation": "GR",
+        "CPI": 101.87,
+        "Co2-Emissions": 62434,
+        "Co2-Emissions per million people": 5826.0660700564995,
+        "Country": "Greece",
+        "GDP": 209852761469,
+        "GDP per capita": 19582.53601086268,
+        "Gasoline Price": 1.54,
+        "Latitude": 39.074208,
+        "Life expectancy": 81.3,
+        "Longitude": 21.824312,
+        "Physicians per thousand": 5.48,
+        "Population": 10716322,
+        "Region": "Europe",
+        "Unemployment rate": 17.24
+      },
+      {
+        "Abbreviation": "CY",
+        "CPI": 102.51,
+        "Co2-Emissions": 6626,
+        "Co2-Emissions per million people": 5528.231441503452,
+        "Country": "Cyprus",
+        "GDP": 24564647935,
+        "GDP per capita": 20494.87761299877,
+        "Gasoline Price": 1.23,
+        "Latitude": 35.126413,
+        "Life expectancy": 80.8,
+        "Longitude": 33.429859,
+        "Physicians per thousand": 1.95,
+        "Population": 1198575,
+        "Region": "Asia",
+        "Unemployment rate": 7.27
+      },
+      {
+        "Abbreviation": "BA",
+        "CPI": 104.9,
+        "Co2-Emissions": 21848,
+        "Co2-Emissions per million people": 6618.600424113905,
+        "Country": "Bosnia and Herzegovina",
+        "GDP": 20047848435,
+        "GDP per capita": 6073.265202968797,
+        "Gasoline Price": 1.05,
+        "Latitude": 43.915886,
+        "Life expectancy": 77.3,
+        "Longitude": 17.679076,
+        "Physicians per thousand": 2.16,
+        "Population": 3301000,
+        "Region": "Europe",
+        "Unemployment rate": 18.42
+      },
+      {
+        "Abbreviation": "JP",
+        "CPI": 105.48,
+        "Co2-Emissions": 1135886,
+        "Co2-Emissions per million people": 8998.787006551585,
+        "Country": "Japan",
+        "GDP": 5081769542380,
+        "GDP per capita": 40259.112030836484,
+        "Gasoline Price": 1.06,
+        "Latitude": 36.204824,
+        "Life expectancy": 84.2,
+        "Longitude": 138.252924,
+        "Physicians per thousand": 2.41,
+        "Population": 126226568,
+        "Region": "Asia",
+        "Unemployment rate": 2.29
+      },
+      {
+        "Abbreviation": "ZW",
+        "CPI": 105.51,
+        "Co2-Emissions": 10983,
+        "Co2-Emissions per million people": 749.9248231603115,
+        "Country": "Zimbabwe",
+        "GDP": 21440758800,
+        "GDP per capita": 1463.9859101805419,
+        "Gasoline Price": 1.34,
+        "Latitude": -19.015438,
+        "Life expectancy": 61.2,
+        "Longitude": 29.154857,
+        "Physicians per thousand": 0.21,
+        "Population": 14645468,
+        "Region": "Africa",
+        "Unemployment rate": 4.95
+      },
+      {
+        "Abbreviation": "BZ",
+        "CPI": 105.68,
+        "Co2-Emissions": 568,
+        "Co2-Emissions per million people": 1455.0932105043382,
+        "Country": "Belize",
+        "GDP": 1879613600,
+        "GDP per capita": 4815.163710795101,
+        "Gasoline Price": 1.13,
+        "Latitude": 17.189877,
+        "Life expectancy": 74.5,
+        "Longitude": -88.49765,
+        "Physicians per thousand": 1.12,
+        "Population": 390353,
+        "Region": "Americas",
+        "Unemployment rate": 6.41
+      },
+      {
+        "Abbreviation": "BF",
+        "CPI": 106.58,
+        "Co2-Emissions": 3418,
+        "Co2-Emissions per million people": 168.1972551270883,
+        "Country": "Burkina Faso",
+        "GDP": 15745810235,
+        "GDP per capita": 774.8396902513206,
+        "Gasoline Price": 0.98,
+        "Latitude": 12.238333,
+        "Life expectancy": 61.2,
+        "Longitude": -1.561593,
+        "Physicians per thousand": 0.08,
+        "Population": 20321378,
+        "Region": "Africa",
+        "Unemployment rate": 6.26
+      }
+    ],
+    "data-d820d50eb0ab518496794c8014752496": [
+      {
+        "Abbreviation": "JP",
+        "CPI": 105.48,
+        "Co2-Emissions": 1135886,
+        "Co2-Emissions per million people": 8998.787006551585,
+        "Country": "Japan",
+        "GDP": 5081769542380,
+        "GDP per capita": 40259.112030836484,
+        "Gasoline Price": 1.06,
+        "Latitude": 36.204824,
+        "Life expectancy": 84.2,
+        "Longitude": 138.252924,
+        "Physicians per thousand": 2.41,
+        "Population": 126226568,
+        "Region": "Asia",
+        "Unemployment rate": 2.29
+      },
+      {
+        "Abbreviation": "CH",
+        "CPI": 99.55,
+        "Co2-Emissions": 34477,
+        "Co2-Emissions per million people": 4020.7201727100896,
+        "Country": "Switzerland",
+        "GDP": 703082435360,
+        "GDP per capita": 81993.72714940654,
+        "Gasoline Price": 1.45,
+        "Latitude": 46.818188,
+        "Life expectancy": 83.6,
+        "Longitude": 8.227512,
+        "Physicians per thousand": 4.3,
+        "Population": 8574832,
+        "Region": "Europe",
+        "Unemployment rate": 4.58
+      },
+      {
+        "Abbreviation": "ES",
+        "CPI": 110.96,
+        "Co2-Emissions": 244002,
+        "Co2-Emissions per million people": 5183.064661961487,
+        "Country": "Spain",
+        "GDP": 1394116310769,
+        "GDP per capita": 29613.67113798626,
+        "Gasoline Price": 1.26,
+        "Latitude": 40.463667,
+        "Life expectancy": 83.3,
+        "Longitude": -3.74922,
+        "Physicians per thousand": 3.87,
+        "Population": 47076781,
+        "Region": "Europe",
+        "Unemployment rate": 13.96
+      },
+      {
+        "Abbreviation": "SG",
+        "CPI": 114.41,
+        "Co2-Emissions": 37535,
+        "Co2-Emissions per million people": 6580.967110242727,
+        "Country": "Singapore",
+        "GDP": 372062527489,
+        "GDP per capita": 65233.28243929371,
+        "Gasoline Price": 1.25,
+        "Latitude": 1.352083,
+        "Life expectancy": 83.1,
+        "Longitude": 103.819836,
+        "Physicians per thousand": 2.29,
+        "Population": 5703569,
+        "Region": "Asia",
+        "Unemployment rate": 4.11
+      },
+      {
+        "Abbreviation": "IT",
+        "CPI": 110.62,
+        "Co2-Emissions": 320411,
+        "Co2-Emissions per million people": 5313.844730541929,
+        "Country": "Italy",
+        "GDP": 2001244392042,
+        "GDP per capita": 33189.56579886136,
+        "Gasoline Price": 1.61,
+        "Latitude": 41.87194,
+        "Life expectancy": 82.9,
+        "Longitude": 12.56738,
+        "Physicians per thousand": 3.98,
+        "Population": 60297396,
+        "Region": "Europe",
+        "Unemployment rate": 9.89
+      },
+      {
+        "Abbreviation": "NO",
+        "CPI": 120.27,
+        "Co2-Emissions": 41023,
+        "Co2-Emissions per million people": 7670.867197118268,
+        "Country": "Norway",
+        "GDP": 403336363636,
+        "GDP per capita": 75419.6348687409,
+        "Gasoline Price": 1.78,
+        "Latitude": 60.472024,
+        "Life expectancy": 82.8,
+        "Longitude": 8.468946,
+        "Physicians per thousand": 2.92,
+        "Population": 5347896,
+        "Region": "Europe",
+        "Unemployment rate": 3.35
+      },
+      {
+        "Abbreviation": "IS",
+        "CPI": 129.0,
+        "Co2-Emissions": 2065,
+        "Co2-Emissions per million people": 5715.2662649835465,
+        "Country": "Iceland",
+        "GDP": 24188035739,
+        "GDP per capita": 66944.82550863102,
+        "Gasoline Price": 1.69,
+        "Latitude": 64.963051,
+        "Life expectancy": 82.7,
+        "Longitude": -19.020835,
+        "Physicians per thousand": 4.08,
+        "Population": 361313,
+        "Region": "Europe",
+        "Unemployment rate": 2.84
+      },
+      {
+        "Abbreviation": "AU",
+        "CPI": 119.8,
+        "Co2-Emissions": 375908,
+        "Co2-Emissions per million people": 14588.961176685869,
+        "Country": "Australia",
+        "GDP": 1392680589329,
+        "GDP per capita": 54049.8288124881,
+        "Gasoline Price": 0.93,
+        "Latitude": -25.274398,
+        "Life expectancy": 82.7,
+        "Longitude": 133.775136,
+        "Physicians per thousand": 3.68,
+        "Population": 25766605,
+        "Region": "Oceania",
+        "Unemployment rate": 5.27
+      },
+      {
+        "Abbreviation": "KR",
+        "CPI": 115.16,
+        "Co2-Emissions": 620302,
+        "Co2-Emissions per million people": 11995.993432335641,
+        "Country": "South Korea",
+        "GDP": 2029000000000,
+        "GDP per capita": 39238.74286107253,
+        "Gasoline Price": 1.22,
+        "Latitude": 35.907757,
+        "Life expectancy": 82.6,
+        "Longitude": 127.766922,
+        "Physicians per thousand": 2.36,
+        "Population": 51709098,
+        "Region": "Asia",
+        "Unemployment rate": 4.15
+      },
+      {
+        "Abbreviation": "FR",
+        "CPI": 110.05,
+        "Co2-Emissions": 303276,
+        "Co2-Emissions per million people": 4522.465121362343,
+        "Country": "France",
+        "GDP": 2715518274227,
+        "GDP per capita": 40493.9285720389,
+        "Gasoline Price": 1.39,
+        "Latitude": 46.227638,
+        "Life expectancy": 82.5,
+        "Longitude": 2.213749,
+        "Physicians per thousand": 3.27,
+        "Population": 67059887,
+        "Region": "Europe",
+        "Unemployment rate": 8.43
+      }
+    ],
+    "data-fea4c0d1eb65cd28c91c32653be8b1ee": [
+      {
+        "Abbreviation": "QA",
+        "CPI": 115.38,
+        "Co2-Emissions": 103259,
+        "Co2-Emissions per million people": 36460.648706404194,
+        "Country": "Qatar",
+        "GDP": 183466208791,
+        "GDP per capita": 64781.73319734314,
+        "Gasoline Price": 0.4,
+        "Latitude": 25.354826,
+        "Life expectancy": 80.1,
+        "Longitude": 51.183884,
+        "Physicians per thousand": 2.49,
+        "Population": 2832067,
+        "Region": "Asia",
+        "Unemployment rate": 0.09
+      },
+      {
+        "Abbreviation": "NE",
+        "CPI": 109.32,
+        "Co2-Emissions": 2017,
+        "Co2-Emissions per million people": 86.52673244900468,
+        "Country": "Niger",
+        "GDP": 12928145120,
+        "GDP per capita": 554.6009686961554,
+        "Gasoline Price": 0.88,
+        "Latitude": 17.607789,
+        "Life expectancy": 62.0,
+        "Longitude": 8.081666,
+        "Physicians per thousand": 0.04,
+        "Population": 23310715,
+        "Region": "Africa",
+        "Unemployment rate": 0.47
+      },
+      {
+        "Abbreviation": "LA",
+        "CPI": 135.87,
+        "Co2-Emissions": 17763,
+        "Co2-Emissions per million people": 2477.5941825424666,
+        "Country": "Laos",
+        "GDP": 18173839128,
+        "GDP per capita": 2534.8982772051713,
+        "Gasoline Price": 0.93,
+        "Latitude": 19.85627,
+        "Life expectancy": 67.6,
+        "Longitude": 102.495496,
+        "Physicians per thousand": 0.37,
+        "Population": 7169455,
+        "Region": "Asia",
+        "Unemployment rate": 0.63
+      },
+      {
+        "Abbreviation": "KH",
+        "CPI": 127.63,
+        "Co2-Emissions": 9919,
+        "Co2-Emissions per million people": 601.6422364374531,
+        "Country": "Cambodia",
+        "GDP": 27089389787,
+        "GDP per capita": 1643.121388766668,
+        "Gasoline Price": 0.9,
+        "Latitude": 12.565679,
+        "Life expectancy": 69.6,
+        "Longitude": 104.990963,
+        "Physicians per thousand": 0.17,
+        "Population": 16486542,
+        "Region": "Asia",
+        "Unemployment rate": 0.68
+      },
+      {
+        "Abbreviation": "BH",
+        "CPI": 117.59,
+        "Co2-Emissions": 31694,
+        "Co2-Emissions per million people": 21106.32743642763,
+        "Country": "Bahrain",
+        "GDP": 38574069149,
+        "GDP per capita": 25688.046129052665,
+        "Gasoline Price": 0.43,
+        "Latitude": 26.0667,
+        "Life expectancy": 77.2,
+        "Longitude": 50.5577,
+        "Physicians per thousand": 0.93,
+        "Population": 1501635,
+        "Region": "Asia",
+        "Unemployment rate": 0.71
+      },
+      {
+        "Abbreviation": "TH",
+        "CPI": 113.27,
+        "Co2-Emissions": 283763,
+        "Co2-Emissions per million people": 4075.556596424573,
+        "Country": "Thailand",
+        "GDP": 543649976166,
+        "GDP per capita": 7808.192916304814,
+        "Gasoline Price": 0.71,
+        "Latitude": 15.870032,
+        "Life expectancy": 76.9,
+        "Longitude": 100.992541,
+        "Physicians per thousand": 0.81,
+        "Population": 69625582,
+        "Region": "Asia",
+        "Unemployment rate": 0.75
+      },
+      {
+        "Abbreviation": "RW",
+        "CPI": 151.09,
+        "Co2-Emissions": 1115,
+        "Co2-Emissions per million people": 88.30319277418538,
+        "Country": "Rwanda",
+        "GDP": 10122472590,
+        "GDP per capita": 801.6561869651816,
+        "Gasoline Price": 1.17,
+        "Latitude": -1.940278,
+        "Life expectancy": 68.7,
+        "Longitude": 29.873888,
+        "Physicians per thousand": 0.13,
+        "Population": 12626950,
+        "Region": "Africa",
+        "Unemployment rate": 1.03
+      },
+      {
+        "Abbreviation": "NP",
+        "CPI": 188.73,
+        "Co2-Emissions": 9105,
+        "Co2-Emissions per million people": 318.25971880591607,
+        "Country": "Nepal",
+        "GDP": 30641380604,
+        "GDP per capita": 1071.0507605550897,
+        "Gasoline Price": 0.91,
+        "Latitude": 28.394857,
+        "Life expectancy": 70.5,
+        "Longitude": 84.124008,
+        "Physicians per thousand": 0.75,
+        "Population": 28608710,
+        "Region": "Asia",
+        "Unemployment rate": 1.41
+      },
+      {
+        "Abbreviation": "BI",
+        "CPI": 182.11,
+        "Co2-Emissions": 495,
+        "Co2-Emissions per million people": 42.929323589966856,
+        "Country": "Burundi",
+        "GDP": 3012334882,
+        "GDP per capita": 261.24747254691437,
+        "Gasoline Price": 1.21,
+        "Latitude": -3.373056,
+        "Life expectancy": 61.2,
+        "Longitude": 29.918886,
+        "Physicians per thousand": 0.1,
+        "Population": 11530580,
+        "Region": "Africa",
+        "Unemployment rate": 1.43
+      },
+      {
+        "Abbreviation": "MM",
+        "CPI": 168.18,
+        "Co2-Emissions": 25280,
+        "Co2-Emissions per million people": 467.75471446054075,
+        "Country": "Myanmar",
+        "GDP": 76085852617,
+        "GDP per capita": 1407.8131434078966,
+        "Gasoline Price": 0.54,
+        "Latitude": 21.916221,
+        "Life expectancy": 66.9,
+        "Longitude": 95.955974,
+        "Physicians per thousand": 0.68,
+        "Population": 54045420,
+        "Region": "Asia",
+        "Unemployment rate": 1.58
+      }
+    ]
+  },
+  "params": [
+    {
+      "name": "brush",
+      "select": {
+        "encodings": [
+          "y"
+        ],
+        "resolve": "global",
+        "type": "interval"
+      },
+      "views": [
+        "view_3",
+        "view_4",
+        "view_5",
+        "view_6"
+      ]
+    },
+    {
+      "bind": "legend",
+      "name": "Region Selection",
+      "select": {
+        "fields": [
+          "Region"
+        ],
+        "type": "point"
+      },
+      "views": [
+        "view_3",
+        "view_4",
+        "view_5",
+        "view_6"
+      ]
+    }
+  ],
+  "vconcat": [
+    {
+      "data": {
+        "name": "data-04918b9fc03a637edf6e452f8f5e11a6"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "Region",
+            "param": "Region Selection",
+            "type": "nominal"
+          },
+          "value": "lightgrey"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "GDP per capita",
+            "type": "quantitative"
+          },
+          {
+            "field": "Region",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "GDP per capita",
+          "title": "GDP per capita",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Country",
+          "sort": "-x",
+          "title": "Country",
+          "type": "nominal"
+        }
+      },
+      "height": 100,
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_3",
+      "title": "Top 10 Countries by GDP per capita",
+      "transform": [
+        {
+          "filter": {
+            "param": "Region Selection"
+          }
+        }
+      ],
+      "width": 900
+    },
+    {
+      "data": {
+        "name": "data-d820d50eb0ab518496794c8014752496"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "Region",
+            "param": "Region Selection",
+            "type": "nominal"
+          },
+          "value": "lightgrey"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Life expectancy",
+            "type": "quantitative"
+          },
+          {
+            "field": "Region",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "Life expectancy",
+          "title": "Life expectancy",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Country",
+          "sort": "-x",
+          "title": "Country",
+          "type": "nominal"
+        }
+      },
+      "height": 100,
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_4",
+      "title": "Top 10 Countries by Life expectancy",
+      "transform": [
+        {
+          "filter": {
+            "param": "Region Selection"
+          }
+        }
+      ],
+      "width": 900
+    },
+    {
+      "data": {
+        "name": "data-fea4c0d1eb65cd28c91c32653be8b1ee"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "Region",
+            "param": "Region Selection",
+            "type": "nominal"
+          },
+          "value": "lightgrey"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "Unemployment rate",
+            "type": "quantitative"
+          },
+          {
+            "field": "Region",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "Unemployment rate",
+          "title": "Unemployment rate",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Country",
+          "sort": "x",
+          "title": "Country",
+          "type": "nominal"
+        }
+      },
+      "height": 100,
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_5",
+      "title": "Top 10 Countries by Unemployment rate",
+      "transform": [
+        {
+          "filter": {
+            "param": "Region Selection"
+          }
+        }
+      ],
+      "width": 900
+    },
+    {
+      "data": {
+        "name": "data-1e48afa865e8d3f74c573f9ad1d19165"
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "field": "Region",
+            "param": "Region Selection",
+            "type": "nominal"
+          },
+          "value": "lightgrey"
+        },
+        "opacity": {
+          "condition": {
+            "param": "brush",
+            "value": 1
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Country",
+            "type": "nominal"
+          },
+          {
+            "field": "CPI",
+            "type": "quantitative"
+          },
+          {
+            "field": "Region",
+            "type": "nominal"
+          }
+        ],
+        "x": {
+          "field": "CPI",
+          "title": "CPI",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Country",
+          "sort": "x",
+          "title": "Country",
+          "type": "nominal"
+        }
+      },
+      "height": 100,
+      "mark": {
+        "type": "bar"
+      },
+      "name": "view_6",
+      "title": "Top 10 Countries by CPI",
+      "transform": [
+        {
+          "filter": {
+            "param": "Region Selection"
+          }
+        }
+      ],
+      "width": 900
+    }
+  ]
+}
